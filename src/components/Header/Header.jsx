@@ -11,21 +11,15 @@ function Header() {
 					<img className='logo' src={logo} alt='Логотип' />
 				</Link>
 				<ul className='header__menu'>
-					<li className='header__menu-item'>
-						<Link to='/studios' className='header__menu-link'>
-							Студии
-						</Link>
-					</li>
-					<li className='header__menu-item'>
-						<Link to='/reviews' className='header__menu-link'>
-							Отзывы
-						</Link>
-					</li>
-					<li className='header__menu-item'>
-						<Link to='/login' className='header__menu-link'>
-							Войти
-						</Link>
-					</li>
+					<Link to='/studios' className='header__menu-link'>
+						Студии
+					</Link>
+					<Link to='/reviews' className='header__menu-link'>
+						Отзывы
+					</Link>
+					<Link to='/login' className='header__menu-link'>
+						Войти
+					</Link>
 				</ul>
 			</nav>
 		</header>

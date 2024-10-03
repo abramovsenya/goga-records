@@ -1,13 +1,25 @@
 .header {
 	max-width: 1300px;
 	margin: 0 auto;
+
+	padding: 20px;
+	border-bottom: 8px solid #930000; /* Линия под хедером */
 }
 .nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 40px;
 }
 .logo {
 	max-width: 400px;
+}
+.header__menu {
+	display: flex;
+	gap: 75px;
+}
+
+.header__menu-link {
+	font-size: 48px;
+	color: #fff;
+	font-weight: 600;
 }
