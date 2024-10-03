@@ -1,0 +1,34 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+:root {
+	font-family: 'Bro', sans-serif;
+	background-color: #2d457e;
+	/* background-color: #f6f6f6; */
+	color: rgb(255, 255, 255);
+}
+
+a,
+li,
+button {
+	text-decoration: none;
+	list-style: none;
+	background: none;
+}
+.link {
+	list-style: none;
+}
+.page {
+	font-family: 'Poppins', sans-serif;
+	background-color: #f6f6f6;
+	color: #fff;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
