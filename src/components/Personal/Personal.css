@@ -1,0 +1,43 @@
+/* .personal {
+	margin-top: 200px;
+}
+
+.personal__team {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.personal__title {
+	font-size: 48px;
+	max-width: 800px;
+	text-align: center;
+} */
+
+.personal {
+	margin-top: 200px;
+	display: flex; /* Flexbox для выравнивания */
+	flex-direction: column; /* Элементы идут сверху вниз */
+	align-items: center; /* Центрируем все содержимое по горизонтали */
+}
+
+.personal__content {
+	width: 100%; /* Занимаем всю ширину контейнера */
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Центрируем контент по горизонтали */
+}
+
+.personal__team {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	width: 100%; /* Убедитесь, что карточки занимают всю ширину */
+}
+
+.personal__title {
+	font-size: 48px;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto; /* Центрируем блок по горизонтали */
+}
